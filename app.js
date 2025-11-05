@@ -15,9 +15,9 @@ let movies = [
 
 let reviews = [
   { id: 1, movieId: 1, userId: 2, text: "Very underrated movie!" },
-  { id: 2, movieId: 1, userId: 1, text: "Best animated movie ever." },
-  { id: 3, movieId: 2, userId: 1, text: "Classic sci-fi." },
-  { id: 4, movieId: 1, userId: 1, text: "Fr Fr no cap. Sigma movie. W rizz." }
+  { id: 2, movieId: 1, userId: 1, text: "Definitely best animated movie ever." },
+  { id: 3, movieId: 1, userId: 3, text: "Fr Fr no cap. Sigma movie. W rizz." },
+  { id: 4, movieId: 2, userId: 1, text: "Classic sci-fi." }
 ];
 
 app.get("/movies", (req, res) => res.json(movies));
